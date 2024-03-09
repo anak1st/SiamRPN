@@ -1,0 +1,15 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Conda-siamfc",
+  "terminal.integrated.profiles.windows": {
+    "Conda": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "args": ["-NoExit", "-Command", "Start-Conda"]
+    },
+    "Conda-siamfc": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell",
+        "args": ["-NoExit", "-Command", "Start-Conda; conda activate siamfc"]
+    },
+  },
+}
